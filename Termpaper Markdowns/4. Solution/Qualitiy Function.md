@@ -14,3 +14,6 @@ QF[n_] := (n - Sum[IntegerDigit[n][[i]]^IntegerLength[n], {i, 1, IntegerLength[n
 For all narcissistic numbers: QF(n) = 0
 For all non narcissistic numbers: QF(n) is not 0
 
+4.1 Mathematisch
+4.2 Bruteforce
+4.3 Bruteforce parallelized
